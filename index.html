@@ -31,25 +31,47 @@
   <header>
 
     <!-- ############## Insert Name and Title ############### -->
-    <section>
-      <h1>Geneviève PREVOST</h1>
-      <p>Développeuse - intégratrice web junior</p>
+
+    <section class="jumbotron text-center">
+      <h1 class="display-4">Geneviève PREVOST</h1>
+      <p class="lead">Développeuse - intégratrice web junior</p>
+      <hr class="my-4">
     </section>
 
     <!-- ############## Insert Navigation ############### -->
     <nav>
-      <li><a href="">Accueil</a></li>
-      <li><a href="">A propos</a></li>
-      <li><a href="">Projets</a></li>
-      <li><a href="">Contact</a></li>
-      <li><a href="">English</a></li>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="apropos.html">A propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projets.html">Projets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="English/index.html">English</a>
+        </li>
+      </ul>
     </nav>
 
     <!-- ############## Start Aside part ############### -->
     <aside>
-      <li><a href="">Twitter</a></li>
-      <li><a href="">LinkedIN</a></li>
-      <li><a href="">Github</a></li>
+      <ul class="nav nav-tabs justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/AnneWebDesign" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/genevi%C3%A8ve-prevost-616b2b79/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/Meianne" target="_blank"><i class="fab fa-github"></i> Github</a>
+        </li>
+      </ul>
     </aside>
 
     <!-- ############## End Aside part ############### -->
@@ -58,44 +80,72 @@
 
 
   <!-- ############## Start Main part ############### -->
-  <main>
+  <main class="text-center">
   <!-- ############## A propos ############### -->
-    <section>
-      <h2>A propos de moi</h2>
-      <p>A venir</p>
+    <section class="border rounded">
+      <h3>Qui suis-je ?</h3>
+      <p>Bonjour, je m'appelle Geneviève, <br><br>
+      Je suis développeuse web junior. <br>
+      Je suis curieuse sur beaucoup de choses et passionnée par les nouvelles technologies, ma reconversion dans le développement web me permet aujourd'hui d'exprimer ma créativité. <br><br>
+      J'aime travailler sur des projets variés comme l'intégration de sites en HTML/CSS et Bootstrap ou la création de suports graphiques et visuels tels que des logos, flyers ou petites animations à l'aide des outils Adobe. <br><br>
+      Une veille quotidienne et une polyvalence issue d'un parcours professionnel riche en expériences sont parmi les atouts que je souhaite à présent partager au sein d'une nouvelle équipe. </p>
     </section>
   <!-- ############## Compétences ############### -->
-    <section>
+  <div class="d-flex justify-content-around align-items-center flex-wrap">
+    <section class="card" style="width: 18rem;">
       <h2>Compétences</h2>
-      <p>A venir</p>
+      <div class="card-body">
+        <p class="card-text">En cours</p>
+      </div>
     </section>
 
-  <!-- ############## Expériences ############### -->
-    <section>
+    <!-- ############## Expériences ############### -->
+    <section class="card" style="width: 18rem;">
       <h2>Expériences</h2>
-      <p>A venir</p>
+      <div class="card-body">
+        <p class="card-text">En cours</p>
+      </div>
     </section>
+  </div>
 
-  <!-- ############## Projets ############### -->
-    <section>
+    <!-- ############## Projets ############### -->
+  <div class="d-flex justify-content-around align-items-center flex-wrap">
+    <section class="card" style="width: 18rem;">
+      <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
       <h2>Projets code</h2>
-      <p>A venir</p>
+      <div class="card-body">
+        <p class="card-text">En cours</p>
+      </div>
     </section>
 
-    <section>
+    <section class="card" style="width: 18rem;">
+      <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
       <h2>Projets graphiques</h2>
-      <p>A venir</p>
+      <div class="card-body">
+        <p class="card-text">En cours</p>
+      </div>
     </section>
+  </div>
+
   <!-- ############## End Main part ############### -->
   </main>
 
 
   <!-- ############## Start Footer part ############### -->
-  <footer>
-    <nav>
-      <li><a href="">Twitter</a></li>
-      <li><a href="">LinkedIN</a></li>
-      <li><a href="">Github</a></li>
+  <footer class="jumbotron jumbotron-fluid">
+    <nav class="text-center">
+      <h5>Suivez moi sur les Réseaux sociaux</h5>
+      <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/AnneWebDesign" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/genevi%C3%A8ve-prevost-616b2b79/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/Meianne" target="_blank"><i class="fab fa-github"></i> Github</a>
+        </li>
+      </ul>
     </nav>
   </footer>
   <!-- ############## End Footer part ############### -->
