@@ -108,38 +108,68 @@ textarea {
    /* start common rules */
 
 
-
-
    /*End common rules*/
 
 
 
    /* Start Header style*/
 
-header nav, header aside {
-  width: 40%;
-}
+  header .jumbotron, .jumbotron {
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 
-h1 {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 2.5em;
-}
+  header nav, header aside {
+    width: 50%;
+  }
 
-.lead {
-  font-family: 'Poiret One', cursive;
-  font-size: 2em;
-}
+  h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5em;
+  }
 
-h2, h3, h5 {
-  font-family: 'Orbitron', sans-serif;
-}
+  .lead {
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+  }
+
+  h2, h3, h5 {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  h2 {
+  }
+
+  .whoiam {
+    width: 90%;
+  }
+
+  .whoiam aside {
+    width: 30%;
+  }
+
+  .whoiam div {
+    width: 50%;
+  }
+
+  nav a, aside a {
+    color: black;
+  }
+
+
+  @media screen and (min-width : 320px) {
+    .whoiam {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
    /*End header style*/
 
 
 
    /* Start footer style*/
-
 
 
    /*End footer style*/
@@ -149,13 +179,18 @@ h2, h3, h5 {
    /* Start index main style*/
 
 
-.projects {
-  background-color: mediumvioletred;
-}
+  .projects {
+  }
 
-.skills {
-  background-color: lightblue;
-}
+  .skills {
+  }
+
+  .card:hover, nav a:hover, aside a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 6px 6px 15px black;
+  }
+
    /*End index main style*/
 
 
@@ -169,11 +204,6 @@ h2, h3, h5 {
 
    /*End biographie main style*/
 
-   /* start 404 style */
-
-
-
-   /* End 404 style */
 
 
 
