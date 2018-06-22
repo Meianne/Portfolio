@@ -100,6 +100,18 @@ textarea {
 
    /* start global classes */
 
+   .footerfixed {
+     position: fixed;
+     width: 100%;
+     bottom: 0;
+   }
+
+   @media screen and (max-width: 320px) {
+     .footerfixed {
+       display: none;
+     }
+
+   }
 
 
    /* end global classes */
@@ -112,11 +124,10 @@ textarea {
      margin: auto;
    }
 
-   footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
+   main {
+     position: relative;
    }
+
 
    /*End common rules*/
 
@@ -175,7 +186,6 @@ textarea {
     box-shadow: 6px 6px 15px black;
   }
 
-
    /*End index main style*/
 
 
@@ -188,6 +198,10 @@ textarea {
    /* Start biographie main style*/
    .bio {
      width: 80%;
+   }
+
+   .article {
+     width: 40%;
    }
 
    /*End biographie main style*/
