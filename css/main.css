@@ -171,6 +171,7 @@ textarea {
     text-decoration: none;
   }
 
+
    /*End header style*/
 
 
@@ -207,6 +208,19 @@ textarea {
 
    .article {
      width: 40%;
+   }
+
+   table {
+     border-collapse: collapse;
+     font-size: 1em;
+   }
+
+   tr {
+     margin: 2em;
+   }
+
+   td {
+     border: 1px solid black;
    }
 
    /*End biographie main style*/
