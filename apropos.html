@@ -33,7 +33,7 @@
 
 <body>
   <!-- ############## Start Header part ############### -->
-<header>
+  <header>
     <!-- ############## Insert Name and Title ############### -->
   <div class="jumbotron text-center py-1 mb-0">
     <section>
@@ -54,9 +54,15 @@
           <li class="nav-item">
             <a class="nav-link" href="apropos.html"><i class="fas fa-id-card"></i> A propos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projets.html"><i class="fas fa-clipboard-list"></i> Projets</a>
-          </li>
+          <div class="dropup">
+            <a class="btn bg-transparent dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-clipboard-list"></i> Projets
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="web.html">Web</a>
+              <a class="dropdown-item" href="design.html">Design</a>
+            </div>
+          </div>
           <li class="nav-item">
             <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
           </li>
@@ -85,31 +91,48 @@
   <!-- ############## Start Main part ############### -->
   <main>
     <!-- ############## A propos ############### -->
-      <section class="py-3 my-2 text-center d-flex justify-content-center align-items-center">
-        <article class="bio card justify-content-center align-items-center border border-dark">
-          <h3 class="py-3">Qui suis-je ?</h3>
+    <section class="text-center">
+      <h3 class="py-3">Qui suis-je ?</h3>
+      <div class="justify-content-center d-flex">
+        <article class="border justify-content-center row d-flex border-dark align-items-center width px-3">
           <aside class="my-2">
             <img src="img/photoprofil.jpg" alt="Photo de l'auteur">
           </aside>
-            <p>Bonjour, je m'appelle Geneviève, <br><br>
-            Je suis développeuse web junior. <br>
-            Je suis curieuse sur beaucoup de choses et passionnée par les nouvelles technologies,<br> ma reconversion dans le développement web me permet aujourd'hui d'exprimer ma créativité.
-            <br><br>
-            J'aime travailler sur des projets variés comme l'intégration de sites en HTML/CSS et Bootstrap ou la création de suports graphiques et visuels tels que des logos, flyers ou petites animations à l'aide des outils Adobe. <br><br>
-            Une veille quotidienne et une polyvalence issue d'un parcours professionnel riche en expériences sont parmi les atouts que je souhaite à présent partager au sein d'une nouvelle équipe. </p>
+          <p>Bonjour, je m'appelle Geneviève, <br><br>
+          Je suis développeuse web junior. <br>
+          Je suis curieuse sur beaucoup de choses et passionnée par les nouvelles technologies,<br> ma reconversion dans le développement web me permet aujourd'hui d'exprimer ma créativité.
+          <br><br>
+          J'aime travailler sur des projets variés comme l'intégration de sites en HTML/CSS et Bootstrap ou la création de suports graphiques et visuels tels que des logos, flyers ou petites animations à l'aide des outils Adobe. <br><br>
+          Une veille quotidienne et une polyvalence issue d'un parcours professionnel riche en expériences sont parmi les atouts que je souhaite à présent partager au sein d'une nouvelle équipe. </p>
         </article>
-      </section>
-
-      <!-- ############## Compétences et expériences ############### -->
-      <section class="py-3 my-2 text-center d-flex justify-content-center align-items-center">
-        <article class="bio card justify-content-center align-items-center border border-dark">
-          <h3 class="py-3">Compétences et expériences</h3>
-          <p>En cours </p>
-        </article>
-      </section>
-        </section>
       </div>
+    </section>
 
+    <section class="text-center mb-3">
+      <h3 class="py-3">Compétences</h3>
+      <div class="justify-content-center d-flex">
+        <article class="border justify-content-center d-flex flex-column border-dark align-items-center width px-3">
+            <p>Cliquez pour agrandir</p>
+          </a>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="text-center mb-3">
+      <h3 class="py-3">Mon CV</h3>
+      <div class="justify-content-center d-flex">
+        <article class="border justify-content-center d-flex flex-column border-dark align-items-center width px-3">
+          <a href="img/cv-genevieve.jpg">
+            <img src="img/cv-genevieve-mini.jpg" alt="ma photo" title="Cliquez pour agrandir" />
+            <p>Cliquez pour agrandir</p>
+          <a href="img/cv-genevieve.jpg" download="cv-genevieve">
+            <p>Télécharger mon CV</p>
+          </a>
+          </a>
+        </article>
+      </div>
+    </section>
   </main>
   <!-- ############## End Main part ############### -->
 

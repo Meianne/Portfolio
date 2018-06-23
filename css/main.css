@@ -106,13 +106,18 @@ textarea {
      bottom: 0;
    }
 
-   @media screen and (max-width: 320px) {
-     .footerfixed {
-       display: none;
-     }
-
+   .card {
+     border-radius: 0;
    }
 
+   .width {
+     width: 80%;
+   }
+
+   .carousel {
+     width: 60%;
+     margin: auto;
+   }
 
    /* end global classes */
 
@@ -136,7 +141,7 @@ textarea {
    /* Start Header style*/
 
   header .jumbotron, .jumbotron {
-    background-image: url(../img/header.png);
+    background-image: url(../img/header-black.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -155,13 +160,13 @@ textarea {
     font-size: 2em;
   }
 
-  h2, h3, h5, a h2:hover {
+  h2, h3, h5, a h2:hover, a p {
     font-family: 'Orbitron', sans-serif;
     text-decoration: underline;
     color: black;
   }
 
-  nav a, aside a, a h2, a:hover {
+  nav a, aside a, a h2, a:hover, article a {
     color: black;
     text-decoration: none;
   }
@@ -179,11 +184,14 @@ textarea {
 
    /* Start index main style*/
 
-  .card:hover, nav a:hover, aside a:hover {
-    background-color: crimson;
-    opacity: 1;
-    color: white;
+  .card:hover, nav a:hover, aside a:hover, .dropup:hover {
+    background-color: black;
+    opacity: 0.75;
     box-shadow: 6px 6px 15px black;
+  }
+
+  section:hover h2, nav a:hover, aside a:hover, .dropup:hover {
+    color: white;
   }
 
    /*End index main style*/
@@ -196,9 +204,6 @@ textarea {
 
 
    /* Start biographie main style*/
-   .bio {
-     width: 80%;
-   }
 
    .article {
      width: 40%;
