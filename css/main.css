@@ -133,7 +133,6 @@ textarea {
      position: relative;
    }
 
-
    /*End common rules*/
 
 
@@ -171,21 +170,11 @@ textarea {
     text-decoration: none;
   }
 
-
    /*End header style*/
 
 
 
-   /* Start footer style*/
-
-
-   /*End footer style*/
-
-
-
    /* Start index main style*/
-
-
 
   .card:hover, nav a:hover, aside a:hover, .dropup:hover {
     background-color: black;
@@ -193,14 +182,13 @@ textarea {
     box-shadow: 6px 6px 15px black;
   }
 
-  section:hover h2, nav a:hover, aside a:hover, .dropup:hover {
+  section:hover h2, .card article:hover p, nav a:hover, aside a:hover, .dropup:hover, .carousel-caption h3, article a:hover {
     color: white;
   }
 
-  .mainimage {
+  .mainimage, .card {
     width: 50%;
     height: 50%;
-    background: red;
     -webkit-transition: width 2s, height 2s; /* For Safari 3.1 to 6.0 */
     transition: width 2s, height 2s;
   }
@@ -213,13 +201,7 @@ textarea {
    /*End index main style*/
 
 
-   /* Start contact main style*/
-
-
-   /*End contact main style*/
-
-
-   /* Start biographie main style*/
+   /* Start About main style*/
 
    .article {
      width: 40%;
@@ -238,19 +220,7 @@ textarea {
      border: 1px solid black;
    }
 
-   /*End biographie main style*/
-
-
-
-
-
-
-
-
-
-
-
-
+   /*End About main style*/
 
 
 
